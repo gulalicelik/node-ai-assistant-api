@@ -16,6 +16,9 @@ module.exports = {
             SMTP_USERNAME                        : '',
             SMTP_PASSWORD                        : '',
             EMAIL_FROM                           : '',
+            OPEN_AI_API_KEY                      : '',
+            OPEN_AI_ENGINE_ID                    : 'gpt-4-turbo-preview',
+            OPEN_AI_TOOL_TYPE                    : 'code_interpreter',
         },
         env_test: {
             name        : "api-boilerplate-test",
